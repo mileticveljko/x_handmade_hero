@@ -17,7 +17,6 @@ popd () {
     command popd "$@" > /dev/null
 }
 
-
 # Create bin folder and enter it
 mkdir -p bin
 pushd bin

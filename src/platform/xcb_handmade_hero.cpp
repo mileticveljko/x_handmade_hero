@@ -7,14 +7,14 @@
 int main(int argc, char* argv[])
 {
 	UNUSED(argc);
-  UNUSED(argv);
+	UNUSED(argv);
 
 	Display *display = XOpenDisplay(nullptr);
 	xcb_connection_t *connection = XGetXCBConnection(display);
 
 	UNUSED(connection);
   
-  XCloseDisplay(display);
+	XCloseDisplay(display);
 	
-  return 0;
+	return 0;
 } 
